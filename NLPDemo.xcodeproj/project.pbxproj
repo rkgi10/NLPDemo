@@ -14,6 +14,15 @@
 		453BC8081B542A480034736E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453BC8071B542A480034736E /* Images.xcassets */; };
 		453BC80B1B542A480034736E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453BC8091B542A480034736E /* LaunchScreen.xib */; };
 		453BC8171B542A480034736E /* NLPDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453BC8161B542A480034736E /* NLPDemoTests.swift */; };
+		45B696911B5702D900382BFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B696901B5702D900382BFB /* UIKit.framework */; };
+		45B696931B5702E400382BFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B696921B5702E400382BFB /* Foundation.framework */; };
+		45B696961B57041D00382BFB /* anyFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B696951B57041D00382BFB /* anyFile.m */; };
+		45E54CBF1B54F2B8000B99D6 /* Wit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45E54CBD1B54F2B8000B99D6 /* Wit.bundle */; };
+		45E54CC01B54F2B8000B99D6 /* Wit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E54CBE1B54F2B8000B99D6 /* Wit.framework */; };
+		45E54CC21B54F319000B99D6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E54CC11B54F319000B99D6 /* AVFoundation.framework */; };
+		45E54CC41B54F332000B99D6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E54CC31B54F332000B99D6 /* MobileCoreServices.framework */; };
+		45E54CC61B54F342000B99D6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E54CC51B54F342000B99D6 /* SystemConfiguration.framework */; };
+		45E54CC81B54F349000B99D6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E54CC71B54F349000B99D6 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +47,16 @@
 		453BC8101B542A480034736E /* NLPDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NLPDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		453BC8151B542A480034736E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		453BC8161B542A480034736E /* NLPDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLPDemoTests.swift; sourceTree = "<group>"; };
+		45B696901B5702D900382BFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45B696921B5702E400382BFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45B696941B57041C00382BFB /* NLPDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NLPDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		45B696951B57041D00382BFB /* anyFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = anyFile.m; sourceTree = "<group>"; };
+		45E54CBD1B54F2B8000B99D6 /* Wit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Wit.bundle; sourceTree = "<group>"; };
+		45E54CBE1B54F2B8000B99D6 /* Wit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Wit.framework; sourceTree = "<group>"; };
+		45E54CC11B54F319000B99D6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		45E54CC31B54F332000B99D6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		45E54CC51B54F342000B99D6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		45E54CC71B54F349000B99D6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +64,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B696931B5702E400382BFB /* Foundation.framework in Frameworks */,
+				45B696911B5702D900382BFB /* UIKit.framework in Frameworks */,
+				45E54CC81B54F349000B99D6 /* CoreLocation.framework in Frameworks */,
+				45E54CC61B54F342000B99D6 /* SystemConfiguration.framework in Frameworks */,
+				45E54CC41B54F332000B99D6 /* MobileCoreServices.framework in Frameworks */,
+				45E54CC21B54F319000B99D6 /* AVFoundation.framework in Frameworks */,
+				45E54CC01B54F2B8000B99D6 /* Wit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +87,12 @@
 		453BC7EF1B542A480034736E = {
 			isa = PBXGroup;
 			children = (
+				45B696921B5702E400382BFB /* Foundation.framework */,
+				45B696901B5702D900382BFB /* UIKit.framework */,
+				45E54CC71B54F349000B99D6 /* CoreLocation.framework */,
+				45E54CC51B54F342000B99D6 /* SystemConfiguration.framework */,
+				45E54CC31B54F332000B99D6 /* MobileCoreServices.framework */,
+				45E54CC11B54F319000B99D6 /* AVFoundation.framework */,
 				453BC7FA1B542A480034736E /* NLPDemo */,
 				453BC8131B542A480034736E /* NLPDemoTests */,
 				453BC7F91B542A480034736E /* Products */,
@@ -79,6 +111,8 @@
 		453BC7FA1B542A480034736E /* NLPDemo */ = {
 			isa = PBXGroup;
 			children = (
+				45E54CBD1B54F2B8000B99D6 /* Wit.bundle */,
+				45E54CBE1B54F2B8000B99D6 /* Wit.framework */,
 				453BC7FD1B542A480034736E /* AppDelegate.swift */,
 				453BC8021B542A480034736E /* ViewController.swift */,
 				453BC8041B542A480034736E /* Main.storyboard */,
@@ -86,6 +120,8 @@
 				453BC8091B542A480034736E /* LaunchScreen.xib */,
 				453BC7FF1B542A480034736E /* NLPDemo.xcdatamodeld */,
 				453BC7FB1B542A480034736E /* Supporting Files */,
+				45B696951B57041D00382BFB /* anyFile.m */,
+				45B696941B57041C00382BFB /* NLPDemo-Bridging-Header.h */,
 			);
 			path = NLPDemo;
 			sourceTree = "<group>";
@@ -197,6 +233,7 @@
 			files = (
 				453BC8061B542A480034736E /* Main.storyboard in Resources */,
 				453BC80B1B542A480034736E /* LaunchScreen.xib in Resources */,
+				45E54CBF1B54F2B8000B99D6 /* Wit.bundle in Resources */,
 				453BC8081B542A480034736E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B696961B57041D00382BFB /* anyFile.m in Sources */,
 				453BC8031B542A480034736E /* ViewController.swift in Sources */,
 				453BC7FE1B542A480034736E /* AppDelegate.swift in Sources */,
 				453BC8011B542A480034736E /* NLPDemo.xcdatamodeld in Sources */,
@@ -346,9 +384,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NLPDemo",
+				);
 				INFOPLIST_FILE = NLPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NLPDemo/NLPDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -356,9 +402,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NLPDemo",
+				);
 				INFOPLIST_FILE = NLPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NLPDemo/NLPDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -415,6 +468,7 @@
 				453BC81C1B542A480034736E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		453BC81D1B542A480034736E /* Build configuration list for PBXNativeTarget "NLPDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +477,7 @@
 				453BC81F1B542A480034736E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
